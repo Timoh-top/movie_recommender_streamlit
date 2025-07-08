@@ -40,7 +40,8 @@ tfidf_matrix = build_tfidf_matrix(movies)
 def recommend_movies(title, top_n=10):
     idx = movies[movies['title'].str.lower() == title.lower()].index
     if len(idx) == 0:
-        return None
+        return movies[['title']].head(top_n)
+    
     idx = idx[0]
     cosine_sim = cosine_similarity(tfidf_matrix[idx], tfidf_matrix).flatten()
     similar_indices = cosine_sim.argsort()[-top_n-1:-1][::-1]
