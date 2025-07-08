@@ -38,7 +38,7 @@ tfidf_matrix = build_tfidf_matrix(movies)
 
 # Recommend function
 def recommend_movies(title, top_n=10):
-    idx = movies[movies['title'].str.lower() == title.lower()].index
+    idx = movies[movies['title'].str.lower().str.contains(title.lower())].index
     if len(idx) == 0:
         return movies[['title']].head(top_n)
     
