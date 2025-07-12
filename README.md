@@ -3,7 +3,7 @@
 
 [![Streamlit App](# 🎬 Movie Recommender App
 
-[![Streamlit App][(https://img.shields.io/badge/Streamlit-Live-green)](https://movierecommenderapp-timotop.streamlit.app/)](https://movierecommenderapp-timotop.streamlit.app/)
+[![Streamlit App][([https://img.shields.io/badge/Streamlit-Live-green)](https://movierecommenderapp-timotop.streamlit.app/)](https://movierecommenderapp-timotop.streamlit.app/)](https://movierecommenderapp-u36gfgld2eew6usfdxcxnh.streamlit.app/)
 
 ##  About
 A **Content-Based Movie Recommender System** using **TF-IDF Vectorization and Cosine Similarity**, built with **Python and Streamlit**, and deployed for instant, user-friendly movie recommendations.
@@ -26,7 +26,7 @@ GitHub
 Streamlit Cloud (Deployment)
 
 ## How to Use
-Open the [Live App](https://movierecommenderapp-timotop.streamlit.app/).  
+Open the [Live App][(https://movierecommenderapp-timotop.streamlit.app/)](https://movierecommenderapp-u36gfgld2eew6usfdxcxnh.streamlit.app/).  
 Enter a movie title (e.g., “Titanic”).  
 Click **Get Recommendations**.  
 View your personalized movie suggestions instantly.
